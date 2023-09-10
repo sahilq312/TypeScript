@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-//import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 /* normal state */
-/* export default function State1(){
+ export default function State1(){
     const [user, setUser] = useState<{name: string, salary?: number}>({
         name: "",
         salary: 0
@@ -15,9 +15,9 @@
         <h1>{user.name}</h1>
         <span>{user.salary}</span></>
     )
-} */
+} 
 /* state with mapping  */
-/* export default function State1() {
+ export default function State1() {
   const [user, setUser] = useState<{ [key: string]: any }>({});
   useEffect(() => {
     setUser({
@@ -39,9 +39,8 @@
     </>
   );
 }
- */
 /* fetching data and rendering using useState and useEffect */
-/* export default function State1() {
+ export default function State1() {
 
     interface IPost  {
         userId : number;
@@ -66,4 +65,4 @@
             <p>{post.body}</p>
         </div>)}</>
     )
-} */
+} 
